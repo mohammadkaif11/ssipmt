@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="second.css">
+<body>
+    <div class="header">
+        <div class="log">
+            <a href="https://www.ssipmt.com/" target="_blank">  <img src="Climg/logo (1).png" alt="this_is_flata">
+            </a>
+        </div>
+
+        <div class="nav">
+            <div class="nav1">
+                <ul>
+                <li> <a href="">SSIPMT Edge</a></li>
+                <li><a href="">Training & Edge</a></li>
+                <li><a href="">Media Coverage</a></li>
+                <li><a href="">Alumni</a></li>
+                <li><a href="">Career</a></li>
+                <li><a href="">NIRF/Compliances</a></li>
+            </ul>
+            </div>
+            <div class="nav2">
+                <ul>
+                    <li> <a href="">Home</a></li>
+                    <li><a href="">about Us</a></li>
+                    <li><a href="">contact Us</a></li>
+                    <li><a href="">Courses</a></li>
+                    <li><a href="">academics</a></li>
+              </ul>
+            </div>
+            </div>
+   
+        </div>
+     
+    </div>
+<section class="show">    
+
+<video src="Climg/VN20210823_191554.mp4" autoplay muted loop></video>
+<div class="overlay"></div>
+<div class="text">
+    <h2>ABOUT SSIPMT Raipur</h2>
+    <h4>Affilated to Chhattisgarh Swami Vivekanand Techenical University(CSVTU),Bhilai</h4>
+    <h4>Approved by All India Council for Techenical Eduction(AICTE),New Delhi</h5>
+    </div>
+</section>
+
+<div class="slideshow-container">
+<div class="slide fade">
+<img src="Slideshow/top-rank-1 (1).jpg\" alt="" width="100%">
+</div>
+<div class="slide fade">
+<img src="Slideshow/Idealab_aicte.jpeg" alt="" width="100%">
+</div>
+<div class="slide fade">
+    <img src="Slideshow/mou-banner-1 (2).jpg" alt="" width="100%">
+</div>
+<div class="slide fade">
+    <img src="Slideshow/night-view1 (1).jpg" alt="" width="100%">
+</div>
+<div class="slide fade">
+    <img src="Slideshow/banner-61 (1).jpg" alt="" width="100%">
+
+</div>
+<div class="slide fade">
+<img src="Slideshow/b-2-1 (1).jpg" alt="" width="100%">  
+</div>
+<div class="slide fade">
+    <img src="Slideshow/b-1-1 (1).jpg" alt="" width="100%"> 
+</div>
+</div>
+
+   <div class="content">
+       <img src="Climg/heading-bg-1.png" alt="" class="icons">
+    <p>Lavishly spread over 17 acres of lush green and pollution free environment, SSIPMT has created a unique atmosphere of educational excellence in the capital city of Raipur. The institute was established in the year 2008 with due approval from All India Council of Technical Education (AICTE), New Delhi. Our Institute has been found to be of Quality Management System Standard ie. ISO Certified (NS-EN ISO 9001 : 2015 / ISO 9001 : 2015). SSIPMT aims to provide best quality Engineering and Management education to its students and strives to inculcate the best of its cultural heritage in the future leaders of the corporate world. SSIPMT is proud to have achieved extraordinary university results all these years since its inception in 2008. Imparting education in almost all major streams of engineering and management, SSIPMT has left no stone unturned for the betterment and progress of its students and hence, the society as a whole. To achieve its aim SSIPMT provides multi-faceted learning to its students. We have a team of dedicated and learned teachers inculcating value-based education to the students. Also a highly dynamic and full blown Training and Placement Department provides each and every student a fair chance to transform themselves into a professional and commence their career as soon as they complete their course.</p>
+   </div>
+<footer>
+    <div class="footer-img">
+          <img src="Climg/logo (1).png" alt="" class="footerimg">
+        </div>
+  
+ <div class="logo">
+        <ul> 
+        <li>       
+        <a href=""><img src="Logo/facebook-logo-png-9025-32x32.ico" alt=""></a>
+         <a href=""><img src="Logo/linkedin-png-5852-32x32.ico" alt=""></a>        <a href=""><img src="Logo/logo-instagram-png-13560-32x32.ico" alt=""></a>
+         <a href=""><img src="Logo/twitter-png-5986-32x32.ico" alt=""></a>
+         <a href=""><img src="Logo/youtube-logo-png-10576-32x32.ico" alt=""></a>
+        </li>
+        </ul>
+</div>
+<h5 style="text-align: center;">usefull links</h5>
+<div class="usefulllinks">
+    <ul>
+ <li>   <a href="">EVENTS</a></li> 
+ <li>   <a href="">PHOTO GALLERY</a></li> 
+ <li>  <a href="">DWONLOADS</a></li> 
+ <li>  <a href="">E-Cell</a></li> 
+ <li>  <a href="">PHOTO GALLERY</a></li> 
+ <li>   <a href="">VIRTUAL TOUR</a></li> 
+</ul>
+</div>
+<p class="cr"> Copyright &copy SSIPMT.All Right Reserved</p>
+
+
+</footer>
+<script>
+    var slideindex=0;
+    showsildes();
+    function showsildes(){
+        var i;
+    
+     var slides = document.getElementsByClassName("slide");
+        for(i=0;i<slides.length;i++){
+            slides[i].style.display="none";
+
+        }
+        slideindex++;
+        if(slideindex > slides.length){
+            slideindex=1;
+        }
+        slides[slideindex-1].style.display="block";
+        setTimeout(showsildes,3000);
+    }
+</script>
+</body>
+</html>
